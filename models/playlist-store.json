@@ -35,4 +35,24 @@
       ]
     }
   ]
+},
+ {
+      "title": "Jew playlist",
+      "songs": [
+        {
+          "title": "Piano Concerto No. 123",
+          "artist": "Beethoven"
+        },
+        {
+          "title": "Piano Concerto No. 445,
+          "artist": "Beethoven"
+        },
+        {
+          "title": "Piano Concerto No. 34234",
+          "artist": "Beethoven"
+        }
+      ]
+    }
+  ]
 }
+
