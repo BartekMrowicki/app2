@@ -38,6 +38,24 @@ const concertos = {
   ],
 };
 
+const javaisshit = {
+  title: 'javaisterrible',
+  songs: [
+    {
+      title: 'Piano Concerto No. 123',
+      artist: 'Beethoven',
+    },
+    {
+      title: 'Piano Concerto  No. 445',
+      artist: 'Beethoven',
+    },
+    {
+      title: 'Piano Concerto  No. 34234',
+      artist: 'Beethoven',
+    },
+  ],
+};
+
 const playlistCollection = require('./playlist-store.json').playlistCollection;
 
 module.exports = playlistCollection;
