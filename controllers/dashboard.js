@@ -1,6 +1,7 @@
 'use strict';
 
 const logger = require('../utils/logger');
+
 const playlistCollection = require('../models/playlist-store.js');
 
 const dashboard = {
