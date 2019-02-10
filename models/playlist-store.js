@@ -20,4 +20,24 @@ const sonatas = {
   ],
 };
 
-module.exports = sonatas;
+const concertos = {
+  title: 'Beethoven Concertos',
+  songs: [
+    {
+      title: 'Piano Concerto No. 0',
+      artist: 'Beethoven',
+    },
+    {
+      title: 'Piano Concerto  No. 4',
+      artist: 'Beethoven',
+    },
+    {
+      title: 'Piano Concerto  No. 6',
+      artist: 'Beethoven',
+    },
+  ],
+};
+
+const playlistCollection = [sonatas, concertos];
+
+module.exports = playlistCollection;
