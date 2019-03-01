@@ -18,6 +18,10 @@ const playlistStore = {
 
     return foundPlaylist;
   },
+   removeSong(id, songId) {
+    const playlist = this.getPlaylist(id);
+    // remove the song with id songId from the playlist
+  },
 };
 
 module.exports = playlistStore;
