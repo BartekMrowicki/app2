@@ -6,33 +6,6 @@
       {{title}}
     </h2>
     <p> Total Duration: {{duration}} </p>
-    <table class="ui fixed table">
-      <thead>
-        <tr>
-          <th>Song</th>
-          <th>Artist</th>
-          <th>Genre</th>
-          <th>Duration</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{#each songs}}
-          <tr>
-            <td>
-              {{title}}
-            </td>
-            <td>
-              {{artist}}
-            </td>
-            <td>
-              {{genre}}
-            </td>
-            <td>
-              {{duration}}
-            </td>
-          </tr>
-        {{/each}}
-      </tbody>
-    </table>
+    <a href="/playlist/{{id}}">View</a>
   </section>
 {{/each}}
