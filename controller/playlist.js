@@ -1,15 +1,23 @@
 'use strict';
 
-const logger = require('../utils/logger');
-const playlistCollection = require('../models/playlist-store.js');
-                                   
-const playlist = { 
-index(request, response) {
-  const viewData = {
-title:'Playlist',
-  };
-  response.render('playlist',viewData);
-},
+const playlistStore = {
+
+  playlistCollection: require('./playlist-store.json').playlistCollection,
+
+  getAllPlaylists() {
+    return this.playlistCollection;
+  },
+
+  getPlaylist(id) {
+    let foundPlaylist = null;
+    for (let playlist of this.playlistCollection) {
+      if (id == playlist.id) {
+        foundPlaylist = playlist;
+      }
+    }
+
+    return foundPlaylist;
+  },
 };
 
-module.exports = playlist;
+module.exports = playlistStore;

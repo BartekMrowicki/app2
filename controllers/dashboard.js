@@ -2,7 +2,7 @@
 
 const logger = require('../utils/logger');
 
-const playlistCollection = require('../models/playlist-store.js');
+const playlistStore = require('../models/playlist-store.js');
 
 const dashboard = {
   index(request, response) {
