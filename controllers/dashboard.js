@@ -18,7 +18,7 @@ const dashboard = {
      const playlistId = request.params.id;
      logger.debug('deleting Playlist ${playlistId}');
      playlistStore.removePlaylist(playlistId);
-     response.redirect('/dashboard');
+     response.redirect('/dashboard/');
    },
   
   
