@@ -6,13 +6,14 @@ const playlistStore = require('../models/playlist-store');
 const playlist = {
   index(request, response) {
     const playlistId = request.params.id;
-    logger.debug('Playlist id = ', playlistId);
+    logger.debug("Playlist id =",playlistId);
     const viewData = {
       title: 'Playlist',
-      playlist: playlistStore.getPlaylist(playlistId),
+      playlist:playlistStore.getPlaylist(playlistId),
     };
     response.render('playlist', viewData);
   },
+  
   deleteSong(request, response) {
     const playlistId = request.params.id;
     const songId = request.params.songid;

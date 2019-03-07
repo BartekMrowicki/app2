@@ -1,5 +1,16 @@
 {{> menu id="dashboard"}}
 
-<section class="ui segment">
-  {{> listplaylists}}
-</section>
+{{#each playlists}}
+  <section class="ui segment">
+    <h2 class="ui header">
+      {{title}}
+    </h2>
+    <p> Total Duration: {{duration}} </p>
+    <a href="/playlist/{{id}}" class="ui icon button">
+      <i class="icon folder open"></i>
+    </a>
+    <a href="/dashboard/deleteplaylist/{{id}}" class="ui icon button">
+      <i class="icon trash"></i>
+    </a>
+  </section>
+{{/each}}

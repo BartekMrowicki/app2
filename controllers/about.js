@@ -4,7 +4,7 @@ const logger = require('../utils/logger');
 
 const about = {
   index(request, response) {
-    logger.info('about rendering');
+    logger.info('start rendering');
     const viewData = {
       title: 'About Playlist 1',
     };
@@ -13,3 +13,4 @@ const about = {
 };
 
 module.exports = about;
+

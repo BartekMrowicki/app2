@@ -1,7 +1,7 @@
 'use strict';
 
 const logger = require('../utils/logger');
-const playlistStore= require('../models/playlist-store');
+const playlistStore = require('../models/playlist-store');
 
 const dashboard = {
   index(request, response) {
@@ -13,11 +13,15 @@ const dashboard = {
     logger.info('about to render', playlistStore.getAllPlaylists());
     response.render('dashboard', viewData);
   },
-  deletePlaylist(request, response) {
-    const playlistId = request.params.id;
-    playlistStore.removePlaylist(playlistId);
-    response.redirect('/dashboard/');
-  },
+  
+   deletePlayList(request, response) {
+     const playlistId = request.params.id;
+     logger.debug('deleting Playlist ${playlistId}');
+     playlistStore.removePlaylist(playlistId);
+     response.redirect('/dashboard');
+   },
+  
+  
 };
 
 module.exports = dashboard;
