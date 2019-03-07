@@ -15,6 +15,10 @@ const playlistStore = {
     const playlist = this.getPlaylist(id);
     _.remove(playlist.songs, { id: songId });
   },
+   removePlaylist(id) {
+    const playlist = this.getPlaylist(id);
+    _.remove(dashboard.Playlist, { id: PlaylistId });
+  },
 };
 
 module.exports = playlistStore;
