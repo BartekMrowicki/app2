@@ -20,6 +20,7 @@ const playlist = {
     playlistStore.removeSong(playlistId, songId);
     response.redirect('/playlist/' + playlistId);
   },
+  
 };
 
 module.exports = playlist;
