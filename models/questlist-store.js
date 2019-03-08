@@ -1,28 +1,28 @@
 'use strict';
 
 const _ = require('lodash');
-const playlistStore = {
+const questlistStore = {
 
-  playlistCollection: require('./playlist-store.json').playlistCollection,
+  questlistCollection: require('./questlist-store.json').questlistCollection,
 
-  getAllPlaylists() {
-    return this.playlistCollection;
+  getAllQuestlists() {
+    return this.questlistCollection;
   },
 
-  getPlaylist(id) {
-    return _.find(this.playlistCollection, { id: id });
-  },
-  
-     removeSong(id, songId) {
-    const playlist = this.getPlaylist(id);
-    _.remove(playlist.songs, { id: songId });
+  getQuestlist(id) {
+    return _.find(this.questlistCollection, { id: id });
   },
   
-  removePlaylist(id) {
-  _.remove(this.playlistCollection, { id: id });
+     removeSong(id, questId) {
+    const questlist = this.getquestlist(id);
+    _.remove(questlist.songs, { id: questId });
+  },
+  
+  removeQuestlist(id) {
+  _.remove(this.questlistCollection, { id: id });
 },
   
   
 };
 
-module.exports = playlistStore;
+module.exports = questlistStore;

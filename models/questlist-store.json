@@ -1,79 +1,73 @@
 {
-  "playlistCollection": [
+  "questlistCollection": [
     {
       "id" : "01",
-      "title": "Beethoven Sonatas",
-      "duration": 35,
-      "songs": [
+      "quest": "Eliminate "Name of the character",
+      "reward": 3g,
+      "quests": [
         {
           "id" : "04",
-          "title": "Piano Sonata No. 3",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 5
+          "quest": "Collect this item from diffrent town",
+          "Faction": "Horde",
+          
+          "reward": 5
         },
         {
           "id" : "05",
-          "title": "Piano Sonata No. 7",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 6
+          "quest": "Slay 20 monsters from this type",
+          "faction": "Horde",
+          
+          "reward": 6
         },
         {
           "id" : "06",
-          "title": "Piano Sonata No. 10",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 4
+          "quest": "Piano Sonata No. 10",
+          "faction": "Beethoven",
+          "reward": 4
         }
       ]
     },
     {
       "id" : "02",
-      "title": "Beethoven Concertos",
-      "duration": 23,
-      "songs": [
+      "quest": "Beethoven Concertos",
+      "reward": 23,
+      "quests": [
         {
           "id" : "07",
-          "title": "Piano Concerto No. 0",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 8
+          "quest": "Piano Concerto No. 0",
+          "faction": "Beethoven",
+          "reward": 8
         },
         {
           "id" : "08",
-          "title": "Piano Concerto No. 4",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 3
+          "quest": "Piano Concerto No. 4",
+          "faction": "Beethoven",
+          "reward": 3
         },
         {
           "id" : "09",
-          "title": "Piano Concerto No. 6",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 4
+          "quest": "Piano Concerto No. 6",
+          "faction": "Beethoven",
+          "reward": 4
         }
       ]
     },
     {
       "id" : "03",
-      "title": "Beethoven Variations",
-      "duration": 67,
-      "songs": [
+      "quest": "Beethoven Variations",
+      "reward": 67,
+      "quests": [
         {
           "id" : "10",
-          "title": "Opus 34: Six variations on a theme in F major",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 11
+          "quest": "Opus 34: Six variations on a theme in F major",
+          "factopm": "Beethoven",
+          "reward": 11
         },
         {
           "id" : "11",
-          "title": "Opus 120: Thirty-three variations on a waltz by Diabelli in C majo",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 45
+          "quest": "Opus 120: Thirty-three variations on a waltz by Diabelli in C majo",
+          "faction": "Beethoven",
+          "reward": 45
         }
       ]
     }

@@ -6,13 +6,13 @@ const router = express.Router();
 const start = require('./controllers/start');
 const dashboard = require('./controllers/dashboard.js');
 const about = require('./controllers/about.js');
-const playlist = require('./controllers/playlist.js');
+const questlist = require('./controllers/questlist.js');
 
 router.get('/', start.index);
 router.get('/dashboard', dashboard.index);
 router.get('/about', about.index);
-router.get('/playlist/:id', playlist.index);
-router.get('/playlist/:id/deleteSong/:songid', playlist.deleteSong);
-router.get('/dashboard/deleteplaylist/:id', dashboard.deletePlaylist);
+router.get('/questlist/:id', questlist.index);
+router.get('/questlist/:id/deleteQuest/:questid', questlist.deleteQuest);
+router.get('/dashboard/deleteQuestlist/:id', dashboard.deleteQuestlist);
 
 module.exports = router;
