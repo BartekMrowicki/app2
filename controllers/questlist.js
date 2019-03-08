@@ -8,7 +8,7 @@ const questlist = {
     const questlistId = request.params.id;
     logger.debug('Questlist id =', questlistId);
     const viewData = {
-      title: 'Questlist',
+      quest: 'Questlist',
       questlist: questlistStore.getQuestlist(questlistId),
     };
     response.render('questlist', viewData);

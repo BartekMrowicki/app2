@@ -15,7 +15,7 @@ const questlistStore = {
   
      removeSong(id, questId) {
     const questlist = this.getquestlist(id);
-    _.remove(questlist.songs, { id: questId });
+    _.remove(questlist.quests, { id: questId });
   },
   
   removeQuestlist(id) {

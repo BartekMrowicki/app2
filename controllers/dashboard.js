@@ -7,7 +7,7 @@ const dashboard = {
   index(request, response) {
     logger.info('dashboard rendering');
     const viewData = {
-      title: 'Questlist Dashboard',
+      quest: 'Questlist Dashboard',
       questlists: questlistStore.getAllQuestlists(),
     };
     logger.info('about to render', questlistStore.getAllQuestlists());

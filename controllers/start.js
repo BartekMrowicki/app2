@@ -6,7 +6,7 @@ const start = {
   index(request, response) {
     logger.info('start rendering');
     const viewData = {
-      title: 'Welcome to Questlist 1',
+      quest: 'Welcome to Questlist 1',
     };
     response.render('start', viewData);
   },
