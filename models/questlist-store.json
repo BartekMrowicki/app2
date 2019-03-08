@@ -2,8 +2,8 @@
   "questlistCollection": [
     {
       "id" : "01",
-      "quest": "Eliminate "Name of the character",
-      "reward": 3g,
+      "quest": "Eliminate Name of the character",
+      "reward": 3,
       "quests": [
         {
           "id" : "04",
