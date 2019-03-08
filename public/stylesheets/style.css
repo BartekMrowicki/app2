@@ -1,0 +1,8 @@
+body {
+  background-color:lightblue;
+}
+
+.ui.table thead th {
+  background-color:navy;
+  color:white;
+}
