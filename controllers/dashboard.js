@@ -1,23 +1,23 @@
 'use strict';
 
 const logger = require('../utils/logger');
-const playlistStore = require('../models/playlist-store');
+const questlistStore = require('../models/questlist-store');
 
 const dashboard = {
   index(request, response) {
     logger.info('dashboard rendering');
     const viewData = {
-      title: 'Playlist Dashboard',
-      playlists: playlistStore.getAllPlaylists(),
+      title: 'Questlist Dashboard',
+      questlists: questlistStore.getAllQuestlists(),
     };
-    logger.info('about to render', playlistStore.getAllPlaylists());
+    logger.info('about to render', questlistStore.getAllQuestlists());
     response.render('dashboard', viewData);
   },
   
-   deletePlaylist(request, response) {
-     const playlistId = request.params.id;
-     logger.debug('Deleting Playlist ${playlistId}');
-     playlistStore.removePlaylist(playlistId);
+   deleteQuestlist(request, response) {
+     const questlistId = request.params.id;
+     logger.debug('Deleting Questlist ${questlistId}');
+     questlistStore.removeQuestlist(questlistId);
      response.redirect('/dashboard');
    },
   

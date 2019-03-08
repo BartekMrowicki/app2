@@ -1,0 +1,23 @@
+<table class="ui table">
+  <thead>
+    <tr>
+      <th>Quest</th>
+      <th>Faction</th>
+      <th>    </th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each questlist.quest}}
+      <tr>
+        <td>
+          {{quest}}
+        </td>
+        <td>
+          {{Factopm}}
+        </td>
+        <td>
+         <a href="/questlist/{{../questlist.id}}/deleteQuest/{{id}}" class="ui tiny red button">Delete Quest</a></td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
