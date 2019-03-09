@@ -13,7 +13,7 @@ const questlistStore = {
     return _.find(this.questlistCollection, { id: id });
   },
   
-     removeSong(id, questId) {
+     removeQuest(id, questId) {
     const questlist = this.getquestlist(id);
     _.remove(questlist.quests, { id: questId });
   },

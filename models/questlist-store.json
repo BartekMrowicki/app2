@@ -9,14 +9,12 @@
           "id" : "04",
           "quest": "Collect this item from diffrent town",
           "Faction": "Horde",
-          
           "reward": 5
         },
         {
           "id" : "05",
           "quest": "Slay 20 monsters from this type",
           "faction": "Horde",
-          
           "reward": 6
         },
         {
