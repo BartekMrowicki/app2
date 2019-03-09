@@ -4,9 +4,11 @@ body {
 }
 
 .ui.table thead th {
-  background-color:navy;
-  color:white;
+  background-color:black;
+  color:darkorange;
 }
+
+
 
 .fa {
   padding: 40px;
