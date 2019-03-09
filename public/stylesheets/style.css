@@ -4,12 +4,12 @@ body {
 }
 
 .ui.table thead th {
-  background-color:black;
+  background-color:#43464B;
   color:darkorange;
 }
 
 .ui.header{
-background-color:black;
+background-color:#43464B;
   color:darkorange;
 }
 .ui.center.aligned.middle.aligned.segment {
@@ -21,6 +21,7 @@ background-color:darkgray;
   color:darkorange;
 }
 .ui.menu .item{
+  background-color:#43464B;
 color:darkorange;
 }
 
