@@ -71,3 +71,7 @@ background-color:black;
   color:white;
   text-align:center;
 }
+.ui.two.column.very.relaxed.grid {
+margin-left:0;
+  margin-right:0;
+}
