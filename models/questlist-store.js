@@ -14,7 +14,7 @@ const questlistStore = {
   },
   
      removeQuest(id, questId) {
-    const questlist = this.getquestlist(id);
+    const questlist = this.getQuestlist(id);
     _.remove(questlist.quests, { id: questId });
   },
   
@@ -22,7 +22,7 @@ const questlistStore = {
   _.remove(this.questlistCollection, { id: id });
 },
    
-  
+   
   
 };
 

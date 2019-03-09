@@ -18,7 +18,7 @@ const questlist = {
     const questlistId = request.params.id;
     const questId = request.params.questid;
     logger.debug(`Deleting Quest ${questId} from Questlist ${questlistId}`);
-    questlistStore.removeSong(questlistId, questId);
+    questlistStore.removeQuest(questlistId, questId);
     response.redirect('/questlist/' + questlistId);
   },
     
