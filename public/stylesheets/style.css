@@ -15,6 +15,7 @@ background-color:#43464B;
 .ui.center.aligned.middle.aligned.segment {
 background-color:#43464B;
   color:darkorange;
+  
 }
 nav.ui.menu {
 background-color:#43464B;
@@ -60,7 +61,8 @@ color:darkorange;
 background-color:black;
 text-align:center;
   color:white;
-  width:1150px;
+  padding-right:15px;
+  padding-left:15px;
   
 }
 
