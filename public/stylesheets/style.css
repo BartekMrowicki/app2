@@ -17,7 +17,7 @@ background-color:#43464B;
   color:darkorange;
 }
 nav.ui.menu {
-background-color:darkgray;
+background-color:#43464B;
   color:darkorange;
 }
 .ui.menu .item{
@@ -54,4 +54,11 @@ color:darkorange;
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+.column {
+background-color:black;
+text-align:center;
+  color:white;
+  border-size: 1px solid white;
 }
