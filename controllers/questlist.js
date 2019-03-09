@@ -21,6 +21,16 @@ const questlist = {
     questlistStore.removeSong(questlistId, questId);
     response.redirect('/questlist/' + questlistId);
   },
+   addQuest(request, response) {
+    const questlistId = request.params.id;
+    const questlist = questlistStore.getQuestlist(questlistId);
+    const newQuest = {
+      Quest: request.body.title,
+      Faction: request.body.artist,
+    };
+    questlistStore.addQuest(questlistId, newQuest);
+    response.redirect('/questlist/' + questlistId);
+  },
   
 };
 
