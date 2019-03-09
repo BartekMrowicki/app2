@@ -14,17 +14,19 @@ background-color:#43464B;
 }
 .ui.center.aligned.middle.aligned.segment {
 background-color:#43464B;
-  color:darkorange;
+  color:white;
   
 }
 nav.ui.menu {
 background-color:#43464B;
-  color:darkorange;
+  
 }
 .ui.menu .item{
-  background-color:#43464B;
-color:darkorange;
+  background-color:black;
+color:white;
 }
+
+
 
 .fa {
   padding: 40px;
