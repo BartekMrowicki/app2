@@ -1,11 +1,9 @@
 {{> menu id="dashboard"}}
-  {{> listquestlists}}
-  {{> addquestlist}}
+
 {{#each questlists}}
   <section class="ui segment">
     <h2 class="ui header">
       {{quest}}
-      
     </h2>
     <p> Total Reward: {{reward}} </p>
     <a href="/questlist/{{id}}" class="ui icon button">
