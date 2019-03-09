@@ -4,16 +4,16 @@ const express = require('express');
 const router = express.Router();
 
 const start = require('./controllers/start');
-const dashboard = require('./controllers/dashboard.js');
-const about = require('./controllers/about.js');
+const questlog = require('./controllers/questlog.js');
+const developer = require('./controllers/developer.js');
 const questlist = require('./controllers/questlist.js');
 
 router.get('/', start.index);
-router.get('/dashboard', dashboard.index);
-router.get('/about', about.index);
+router.get('/questlog', questlog.index);
+router.get('/developer', developer.index);
 router.get('/questlist/:id', questlist.index);
 router.get('/questlist/:id/deleteQuest/:questid', questlist.deleteQuest);
-router.get('/dashboard/deleteQuestlist/:id', dashboard.deleteQuestlist);
+router.get('/questlog/deleteQuestlist/:id', questlog.deleteQuestlist);
 
 
 module.exports = router;
