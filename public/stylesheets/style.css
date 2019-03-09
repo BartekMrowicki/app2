@@ -11,10 +11,10 @@ body {
 .fa {
   padding: 40px;
   font-size: 60px;
-  width: 30px;
+  width: 100px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
+  border-radius: 70%;
 }
 
 .fa:hover {
@@ -25,7 +25,7 @@ body {
 .fa-facebook {
   background: #3B5998;
   color: white;
-  
+  font-size:30px;
 }
 
 
