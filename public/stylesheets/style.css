@@ -60,5 +60,12 @@ color:darkorange;
 background-color:black;
 text-align:center;
   color:white;
-  border-size: 1px solid white;
+  width:1150px;
+  
+}
+
+ui.segment{
+background-color:black;
+  color:white;
+  text-align:center;
 }
