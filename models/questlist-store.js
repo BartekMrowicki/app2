@@ -21,6 +21,10 @@ const questlistStore = {
   removeQuestlist(id) {
   _.remove(this.questlistCollection, { id: id });
 },
+    addQuest(id, quest) {
+    const questlist = this.getQuestlist(id);
+    questlist.quests.push(quest);
+  },
   
   
 };
