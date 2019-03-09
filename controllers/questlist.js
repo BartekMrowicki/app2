@@ -21,18 +21,7 @@ const questlist = {
     questlistStore.removeSong(questlistId, questId);
     response.redirect('/questlist/' + questlistId);
   },
-     addQuest(request, response) {
-    const questlistId = request.params.id;
-    const questlist = questlistStore.getQuestlist(questlistId);
-       const uuid = require('uuid');
-    const newQuest = {
-        id: uuid(),
-      Quest: request.body.quest,
-      Faction: request.body.faction,
-    };
-    questlistStore.addQuest(questlistId, newQuest);
-    response.redirect('/questlist/' + questlistId);
-  },
+    
   
 };
 
