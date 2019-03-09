@@ -1,8 +1,12 @@
 body {
    background-image: url("https://wallpapercave.com/wp/sYzXDcX.jpg");
   background-size:cover;
+  
 }
-
+p{
+font-family:Georgia, serif;
+  font-size:20px;
+}
 .ui.table thead th {
   background-color:#43464B;
   color:darkorange;
