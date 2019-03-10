@@ -4,6 +4,7 @@
       <th>Quest</th>
       <th>Faction</th>
       <th>Reward</th>
+      <th>Remove</th>
     </tr>
   </thead>
   <tbody>
@@ -15,8 +16,11 @@
         <td>
           {{faction}}
         </td>
-        
         <td>
+          {{reward}}
+        </td>        
+        <td>
+          {{remove}}
          <a href="/questlist/{{../questlist.id}}/deleteQuest/{{id}}" class="ui tiny red button">Delete Quest</a></td>
       </tr>
     {{/each}}
