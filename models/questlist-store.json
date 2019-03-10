@@ -44,28 +44,34 @@
         },
         {
           "id" : "09",
-          "quest": "",
-          "faction": "Beethoven",
-          "reward": 4
+          "quest": "Slay 10 Aliances around Tidewaves valley",
+          "faction": "Horde",
+          "reward": 1
         }
       ]
     },
     {
       "id" : "03",
       "quest": "Origimmar",
-      "reward": 67,
+      "reward": 3,
       "quests": [
         {
           "id" : "10",
-          "quest": "Opus 34: Six variations on a theme in F major",
-          "factopm": "Beethoven",
-          "reward": 11
+          "quest": "Take over the village on the north side of Origimmar",
+          "faction": "Horde",
+          "reward": 1
         },
         {
           "id" : "11",
-          "quest": "Opus 120: Thirty-three variations on a waltz by Diabelli in C majo",
-          "faction": "Beethoven",
-          "reward": 45
+          "quest": "Meet with War Chief in heart of Origimmar",
+          "faction": "Horde",
+          "reward": 1
+        },
+         {
+          "id" : "10",
+          "quest": "Learn how to fly from flying trainer in Origimmar",
+          "faction": "Horde",
+          "reward": 1
         }
       ]
     }
