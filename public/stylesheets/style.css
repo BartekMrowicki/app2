@@ -96,7 +96,9 @@ background-color:black;
   padding-left:5px;
 }
 
-.td {
- background-color:navyblue;
+.ui.table tr td {
+    border-top: 1px solid rgba(34,36,38,.1);
+    color: cyan;
+    background-color: maroon;
 }
   
