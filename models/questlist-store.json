@@ -9,19 +9,19 @@
           "id" : "04",
           "quest": "Collect this item from diffrent town",
           "Faction": "Horde",
-          "reward": 5
+          "reward": 1
         },
         {
           "id" : "05",
           "quest": "Slay 20 monsters from this type",
           "faction": "Horde",
-          "reward": 6
+          "reward": 1
         },
         {
           "id" : "06",
-          "quest": "Piano Sonata No. 10",
+          "quest": "Collect magical crystal from th elf camp",
           "faction": "Beethoven",
-          "reward": 4
+          "reward": 1
         }
       ]
     },
