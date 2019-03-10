@@ -3,25 +3,25 @@
 const logger = require('../utils/logger');
 const questlistStore = require('../models/questlist-store');
 
-const questlog = {
+const questdiary = {
   index(request, response) {
-    logger.info('questlog rendering');
+    logger.info('questdiary rendering');
     const viewData = {
-      quest: 'Questlist Questlog',
+      quest: 'Questlist QuestDiary',
       questlists: questlistStore.getAllQuestlists(),
     };
     logger.info('about to render', questlistStore.getAllQuestlists());
-    response.render('questlog', viewData);
+    response.render('questdiary', viewData);
   },
   
    deleteQuestlist(request, response) {
      const questlistId = request.params.id;
      logger.debug('Deleting Questlist ${questlistId}');
      questlistStore.removeQuestlist(questlistId);
-     response.redirect('/questlog');
+     response.redirect('/questdiary');
    },
   
   
 };
 
-module.exports = questlog;
+module.exports = questdiary;
